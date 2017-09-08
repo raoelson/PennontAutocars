@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    app:contentPadding="-2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header_rl__"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="16dp">
+
+
+
+            <!--android:background="@drawable/shape_google_avatar"-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView_client_ancienne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="trie"
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_major">
+
+
+            <TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/img_vehicule_ancienne"
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="centerCrop"
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/display_name_ancienne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name Show Here" />
+                        <TextView
+                            android:id="@+id/txt_immatricule_ancienne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray15"
+                            android:text="ddd"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableRow>
+
+            <TableRow>
+                <TableRow
+                    android:layout_marginTop="5dp">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/icon_text_ancienne"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_message_ancienne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name Show Here" />
+                </TableRow>
+
+            </TableRow>
+        </TableLayout>
+
+       <!-- <ImageView
+            android:id="@+id/post_iv"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@color/gray9"
+            android:contentDescription=""
+            android:scaleType="centerCrop" />-->
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="@drawable/shape_whitesmoke_semi_rounded_rectangle"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="center_vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="3dp"
+                    >
+
+                    <!--<LinearLayout
+                        android:id="@+id/commenter_avatars_ll_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:orientation="horizontal">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/image_voir_ancienne"
+                            android:layout_width="32dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="3dp"
+                            android:background="@drawable/shape_rounded_rectangle"
+                            />
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/image_attribuer_ancienne"
+                            android:layout_width="32dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:background="@drawable/shape_rounded_rectangle"
+                            />
+
+                        &lt;!&ndash;<com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/image_email"
+                            android:layout_width="32dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:background="@drawable/shape_rounded_rectangle"
+                            />&ndash;&gt;
+
+                    </LinearLayout>-->
+
+                    <!--<View
+                        android:id="@+id/indicator_v_"
+                        android:layout_width="30dp"
+                        android:layout_height="2dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/bulgarian_blue" />-->
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+    
+

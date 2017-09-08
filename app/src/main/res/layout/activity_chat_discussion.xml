@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".com.activity.ChatDiscussionActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:elevation="@dimen/default_elevation"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <AutoCompleteTextView
+                    android:id="@+id/input_contact_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_search_white_24dp"
+                    android:drawablePadding="5dp"
+                    android:hint="Saisissez le nom d'une personne"
+                    android:theme="@style/autocomplete"
+                    android:backgroundTint="@color/white"
+                    android:textSize="14dp"
+                    android:inputType="textAutoComplete" />
+            </android.support.design.widget.TextInputLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/contentRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:background="#ffffff"
+            android:elevation="@dimen/default_elevation"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+              <!--  <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_chatD_"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:scrollbars="none"
+                    android:background="@android:color/white"/>-->
+                <android.support.design.widget.CoordinatorLayout
+                    android:id="@+id/content_"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_chatD_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:scrollbars="none"
+                        android:background="@android:color/white" />
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="text"
+                        android:id="@+id/networkerror"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textColor="@color/blue"
+                        android:visibility="gone"
+                        />
+
+                </android.support.design.widget.CoordinatorLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/shadow_top" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/llAddComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:elevation="@dimen/default_elevation"
+                android:gravity="center_vertical"
+                android:paddingBottom="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                >
+                <EditText
+                    android:id="@+id/chatMessageInputs"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:hint="Ecrire ici votre message"
+                    android:textColorHint="@color/aluminum"
+                    android:background="@drawable/editback"
+                    android:textColor="#555555"
+                    android:textSize="14sp" />
+                    <!--<soluces.com.pennontautocars.com.view.SendCommentButton
+                        android:id="@+id/chatMessageSends_"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/btn_send_comment"
+                        android:elevation="4dp"
+                        android:orientation="vertical" />-->
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/chatMessageSends_"
+                    style="@style/btn"
+                    android:layout_width="30dp"
+                    android:background="@drawable/button_send"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    />
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/btnPieceJointes"
+                    style="@style/btn"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_attach"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+>
+   <!-- <library_refresh.PullToRefreshListView
+        android:id="@+id/homeChatsList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="1.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swifeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/homeChatsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:id="@+id/networkerror"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="@color/blue"
+        android:visibility="gone"
+        />
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/fab_"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/fab_margin"
+    android:src="@drawable/envelope" />
+
+</android.support.design.widget.CoordinatorLayout>

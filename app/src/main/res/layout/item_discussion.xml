@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/chatimage"
+            android:layout_width="55.0dip"
+            android:layout_height="55.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@mipmap/logo"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/chatListItemInfoContainer"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/chatListItemName"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1.0"
+                    style="@style/chatListItemName" />
+                <!--<com.github.curioustechizen.ago.RelativeTimeTextView
+                    android:layout_gravity="center"
+                    android:id="@+id/chatListItemDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14:13" style="@style/chatListItemDate"
+                   />-->
+                <TextView
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_gravity="center"
+                    android:id="@+id/chatListItemDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/chatListItemDate" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:ellipsize="end"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/chatListItemHints"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:maxLines="1" android:layout_weight="1.0"
+                    style="@style/chatListItemHints" />
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:id="@+id/icNewCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" style="@style/chatListItemNewCount" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/chatListItemMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_overflow_green"
+            android:visibility="gone"
+            android:scaleType="center" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="70dp"
+        android:background="@color/blue" />
+</LinearLayout>

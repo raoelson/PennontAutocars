@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            style="@style/Widget.CardContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_major">
+
+                <TableRow
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Version      :"
+                        android:textStyle="bold"
+                        android:textSize="14dp"
+                        android:fontFamily="sans-serif-condensed"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1.0"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="sans-serif-condensed"
+                        />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="0dp"
+                    android:background="@color/blue" />
+
+                <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Editeur     :"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_adresse1"
+                        android:layout_width="wrap_content"
+                        android:ellipsize="end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="IPSOLUCES – PDS2I\n (0596 48 79 19)" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="0dp"
+                    android:background="@color/blue" />
+                <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textView5_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Société    :"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_adresse2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Autocars Pennont"
+                        android:ellipsize="end"
+                        android:layout_marginLeft="15dp"
+                        />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="0dp"
+                    android:background="@color/blue" />
+
+                <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textView7_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Numéro\nde SIRET :"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_codepostal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:text="81973992100016"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="0dp"
+                    android:background="@color/blue" />
+                <TableRow
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Mentions\nlégales    :"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView_pays"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lorem ipsum"
+                        android:ellipsize="end"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="0dp"
+                    android:background="@color/blue" />
+            </TableLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:elevation="4dp"
+        android:background="@drawable/apropos"
+        android:src="@drawable/logo" />
+</RelativeLayout>

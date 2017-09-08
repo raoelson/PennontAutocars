@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Autocars</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_propos">À propos</string>
+    <string name="info_title">Configuration du serveur</string>
+    <string name="sign_in">Sign in</string>
+
+    <string name="missions">Mes Missions</string>
+    <string name="encours">En cours</string>
+    <string name="employee">Employés</string>
+
+    <string name="client">Clients</string>
+    <string name="categories">Contacts</string>
+    <string name="settings">Paramètres</string>
+    <string name="logout">Déconnexion</string>
+    <string name="discussion">Discussions</string>
+    <string name="contact">CONTACTS</string>
+    <string name="groupe">Groupes</string>
+    <string name="search">Search by name</string>
+    <string name="important">tableau de bord</string>
+    <string name="messages">Mes messages</string>
+    <string name="depart">Anciennes</string>
+    <string name="arrive">Futures</string>
+    <string name="ic_user">&#x61;</string>
+    <string name="ic_parametre">&#x63;</string>
+    <string name="ic_chat">&#x64;</string>
+
+    <string name="size">14</string>
+    <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="actions_names">
+        <item>Images</item>
+        <item>Photos</item>
+    </string-array>
+
+
+
+    <string-array name="pic_flags">
+        <item>@drawable/picture</item>
+        <item>@drawable/compact_camera</item>
+    </string-array>
+
+</resources>

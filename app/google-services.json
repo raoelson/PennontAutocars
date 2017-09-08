@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "266192344194",
+    "project_id": "firebase-tenaizy"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266192344194:android:e89a12bb2c39266c",
+        "android_client_info": {
+          "package_name": "soluces.com.pennontautocars"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK5AIwym9vQw9Nf0498p_vlCjpMlyIFU8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="2dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@+id/card_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:addStatesFromChildren="true"
+                    android:padding="@dimen/spacing_minor">
+
+                    <TextView
+                        android:id="@+id/textview_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Informations générales"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginLeft="10dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"  />
+
+                </FrameLayout>
+                <TableLayout
+                    android:id="@+id/table"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_major">
+
+                    <TableRow
+                        >
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre de\nPersonnes"
+                            android:textStyle="bold"
+                            android:textSize="14dp"
+                            android:fontFamily="sans-serif-condensed"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_nbr_perso"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID Show Here"
+                            android:textSize="14dp"
+                            android:ellipsize="end"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="sans-serif-condensed"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Horaires de\nDépart"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_horaire_depart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:ellipsize="end"
+                            android:text="Name Show Here" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/textView5_"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Horaires de\nFin"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_horaire_fin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Phone Number Show"
+                            android:ellipsize="end"
+                            android:layout_marginLeft="25dp"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:id="@+id/textView7_"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Chauffeur"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_chauffeur"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subject Show Here"
+                            android:layout_marginLeft="25dp"
+                            android:ellipsize="end"
+                            />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Véhicule"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_vehicules"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subject Show Here"
+                            android:layout_marginLeft="25dp"
+                            android:ellipsize="end"
+                            />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@+id/card_header_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:addStatesFromChildren="true"
+                    android:padding="@dimen/spacing_minor">
+
+                    <TextView
+                        android:id="@+id/textview_title_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Informations sur le client"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginLeft="10dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"  />
+
+                </FrameLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_major">
+
+                    <TableRow>
+                        <TableRow
+                            android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nom "
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/textView_nomclient"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="42dp"
+                                android:ellipsize="end"
+                                android:text="Name Show Here" />
+                        </TableRow>
+
+                    </TableRow>
+                    <TableRow>
+                        <TableRow
+                            android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Adresse"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/textView_adresseClient"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="24dp"
+                                android:ellipsize="end"
+                                android:text="Name Show Here" />
+                        </TableRow>
+                    </TableRow>
+                    <TableRow>
+                        <TableRow
+                            android:layout_marginTop="5dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ville"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:id="@+id/textView_ville"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="48dp"
+                                android:ellipsize="end"
+                                android:text="Name Show Here" />
+                        </TableRow>
+                    </TableRow>
+                    <TableRow>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_emailClient"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="41dp"
+                            android:ellipsize="end"
+                            android:text="Name Show Here" />
+                    </TableRow>
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>

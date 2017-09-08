@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/groupesDimage"
+            android:layout_width="55.0dip"
+            android:layout_height="55.0dip"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/chatListItemInfoContainer"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/tvComment_"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text=""
+                    style="@style/chatListItemName" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/chatListItemHints"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1.0"
+                    style="@style/chatListItemHints" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:scaleType="center"
+            android:id="@+id/icNewCount_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aujourd\'hui,10:03"  />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="94dp"
+        android:background="@color/blue" />
+</FrameLayout>

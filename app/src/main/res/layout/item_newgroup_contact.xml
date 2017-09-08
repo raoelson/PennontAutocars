@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/addgrpImage"
+            android:layout_width="55.0dip"
+            android:layout_height="55.0dip"
+            android:layout_margin="5.0dip"
+            android:src="@mipmap/logo"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/chatListItemInfoContainer"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:id="@+id/addgrpNom"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="ddddd"
+                    android:layout_weight="1.0"
+                    style="@style/chatListItemName" />
+                <CheckBox
+                    android:id="@+id/activeMembre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyRadioButton"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="81dp"
+        android:background="@color/blue" />
+</LinearLayout>

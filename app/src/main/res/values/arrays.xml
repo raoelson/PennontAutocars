@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="chatListNames">
+            <item>John Smith</item>
+            <item>Rahul Khanna</item>
+            <item>Tom kolat</item>
+            <item>Micheal Brown</item>
+            <item>Adam Hynes</item>
+            <item>Emily Rose</item>
+        </string-array>
+        <string-array name="chatListHints">
+            <item>Will meet you tommorow, Dont forget to inform kyle.</item>
+            <item>Oh! I am also going to see event</item>
+            <item>Dont tell me that you have called her</item>
+            <item>Yeah I remember that</item>
+            <item>Hey Call me after half an hour.</item>
+            <item>We will have blast at party</item>
+        </string-array>
+        <string-array name="chatListDates">
+            <item>10:13</item>
+            <item>19:39</item>
+            <item>Yesterday</item>
+            <item>09/11/2014</item>
+            <item>25/09/2014</item>
+            <item>15/12/2013</item>
+        </string-array>
+        <integer-array name="chatListNewCounts">
+            <item>3</item>
+            <item>1</item>
+            <item>5</item>
+            <item>0</item>
+            <item>0</item>
+            <item>0</item>
+        </integer-array>
+        <string-array name="chatListImages">
+            <item>logo</item>
+        </string-array>
+        <string-array name="usersLastSeen">
+            <item>Online</item>
+            <item>Last Seen 10:32</item>
+            <item>Last Seen Yesterday</item>
+            <item>Online</item>
+            <item>Last Seen 28/09/2014</item>
+            <item>Last Seen 15/12/2013</item>
+        </string-array>
+        <string-array name="navDrawerItems">
+            <item>Chats</item>
+            <item>New chat</item>
+            <item>New group</item>
+            <item>New broadcast</item>
+            <item>Settings</item>
+            <item>Status</item>
+        </string-array>
+        <string name="icon"><item>@drawable/logo</item></string>
+        <string-array name="chatMessages">
+            <item>hello buddy whats up!</item>
+            <item>i am fine thanks what about you does everything okay</item>
+            <item>yes</item>
+            <item>dont worry i am fine</item>
+            <item>good</item>
+            <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</item>
+        </string-array>
+        <string-array name="chatMessagesFrom">
+            <item>me</item>
+            <item>other</item>
+            <item>me</item>
+            <item>me</item>
+            <item>other</item>
+            <item>other</item>
+        </string-array>
+        <string-array name="chatMessagesDate">
+            <item>14:50</item>
+            <item>14:52</item>
+            <item>13:00</item>
+            <item>13:05</item>
+            <item>13:30</item>
+            <item>13:32</item>
+        </string-array>
+        <string-array name="status">
+            <item>Available</item>
+            <item>Busy</item>
+            <item>At school</item>
+            <item>At work</item>
+            <item>In a meeting</item>
+            <item>With family</item>
+            <item>In love</item>
+            <item>Shopping at Mall</item>
+            <item>Sleeping</item>
+            <item>Do not Disturb</item>
+        </string-array>
+        <string-array name="settings">
+            <item>Profile</item>
+            <item>Account</item>
+            <item>Chat settings</item>
+            <item>Notifications</item>
+        </string-array>
+        <string-array name="settingsIcon">
+            <item>Profile</item>
+            <item>Account</item>
+            <item>Chat settings</item>
+            <item>Notifications</item>
+        </string-array>
+        <string-array name="contactsStatus">
+            <item>Available</item>
+            <item>Busy</item>
+            <item>At school</item>
+            <item>At work</item>
+            <item>In a meeting</item>
+            <item>With family</item>
+        </string-array>
+    </resources>
+
+
+

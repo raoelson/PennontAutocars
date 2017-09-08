@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="year">12dip</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+    <dimen name="pad_10dp">12dp</dimen>
+    <dimen name="facebook_header_height">48dp</dimen>
+    <dimen name="header_height4">48dp</dimen>
+    <dimen name="facebook_footer_height">48dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="micro_padding">8dp</dimen>
+    <dimen name="default_circle_size">250dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <dimen name="default_elevation">8dp</dimen>
+    <dimen name="comment_avatar_size">56dp</dimen>
+    <dimen name="user_profile_avatar_size">88dp</dimen>
+    <dimen name="global_menu_avatar_size">64dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_minor">8dp</dimen>
+    <dimen name="spacing_major">16dp</dimen>
+    <dimen name="spacing_massive">24dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="page_margin">16dp</dimen>
+
+    <dimen name="chatBubbleMargin">5.0dip</dimen>
+
+
+
+
+
+
+</resources>
